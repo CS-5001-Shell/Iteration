@@ -14,6 +14,9 @@ are greater than a value specified by the user. The function will take as a
 parameter a list of integers and a single int provided by the user. It will
 return the number of values in the list that exceed the user's target number.
 
+Your main function will test your function implementation by calling
+`find_greater` at least five times with arguments to exercise different test cases.
+
 ## Count ing Words
 Write a Python program that implements a function `count_ing_words() -> int`. The function will use a while loop to read words from the user until the user enters 'quit'. Return the number of words the user entered that ended with the characters 'ing'. The last line of the output below will be printed by the main function.
 
@@ -34,6 +37,8 @@ Enter next word -- use 'quit' to end input: flyING
 Enter next word -- use 'quit' to end input: quit
 You entered 3 words ending with 'ing'.
 ```
+
+Your main function will call the count_ing_words function and print the result.
 
 ## Passwordify
 Write a Python program that uses a function `passwordify(original: str) -> str` to convert a phrase to a version of the phrase that you might use as a password. The function will take as a parameter the original phrase and will return the passwordified phrase as output. The rules for passwordification are as follows:

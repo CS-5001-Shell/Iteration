@@ -16,6 +16,10 @@ Example:
 
 input = ""sleeping in a tent"
 output = "$1eeping-in-a-10t"
+
+Your main function will test your function implementation by calling
+`passwordify` at least five times with arguments to exercise different test cases.
+
 """
 
 def passwordify(original: str) -> str:

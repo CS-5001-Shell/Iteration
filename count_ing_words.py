@@ -16,6 +16,8 @@ Enter next word -- use 'quit' to end input: working
 Enter next word -- use 'quit' to end input: flying
 Enter next word -- use 'quit' to end input: quit
 You entered 3 words ending with 'ing'.
+
+Your main function will call the count_ing_words function and print the result.
 """
 
 def count_ing_words() -> int:
